@@ -1,0 +1,54 @@
+{
+	"name": "SimpleOledLib",
+	"version": "1.0.0",
+	"description": "This library will control an OLED display with either an ssd1306 or an sh1106 driver chip and allows only simple text output",
+	"keywords": "oled, display, ssd1306, sh1106",
+	"authors":
+	{
+		"name": "Michael Pfeil",
+		"email": "Michael@Fam-Pfeil.de"
+	},
+	"license": "MIT",
+	"frameworks": [ "espidf", "freertos" ],
+	"platforms": "espressif32",
+	"headers": "SimpleOledLib.h",
+	"examples":
+	[
+		{
+			"name": "PrintText",
+			"base": "examples/PrintText",
+			"files":
+				[
+					"CMakeLists.txt",
+					"platformio.ini",
+					"sdkconfig.m5stack-stamps3",
+					"src/CMakeLists.txt",
+					"src/PrintText.c"
+				]
+		},
+		{
+			"name": "PrintMode",
+			"base": "examples/PrintMode",
+			"files":
+				[
+					"CMakeLists.txt",
+					"platformio.ini",
+					"sdkconfig.m5stack-stamps3",
+					"src/CMakeLists.txt",
+					"src/PrintMode.c"
+				]
+		},
+		{
+			"name": "FlashFlipDisplay",
+			"base": "examples/FlashFlipDisplay",
+			"files":
+				[
+					"CMakeLists.txt",
+					"platformio.ini",
+					"sdkconfig.m5stack-stamps3",
+					"src/CMakeLists.txt",
+					"src/FlashFlipDisplay.c"
+				]
+		}
+	]
+}

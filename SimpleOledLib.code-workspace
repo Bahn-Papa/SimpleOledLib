@@ -1,0 +1,20 @@
+{
+	"folders": [
+		{
+			"path": "."
+		},
+		{
+			"name": "PrintText",
+			"path": "examples/PrintText"
+		},
+		{
+			"name": "PrintMode",
+			"path": "examples/PrintMode"
+		},
+		{
+			"name": "FlashFlipDisplay",
+			"path": "examples/FlashFlipDisplay"
+		}
+	],
+	"settings": {}
+}
